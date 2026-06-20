@@ -17,7 +17,7 @@
   },
   "scripts": {
     "preinstall": "bunx only-allow bun",
-    "prepare": "bun run openspec-update && husky",
+    "prepare": "bunx husky && bun run openspec-update",
     "openspec-update": "bunx openspec update"
   }
 }
