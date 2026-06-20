@@ -148,3 +148,7 @@ vite.config.ts.timestamp-*
 # AI assistants
 .claude/commands/opsx/
 .claude/skills/openspec-*/
+/.cursor/commands/opsx-*.md
+/.cursor/skills/openspec-*/
+/.github/prompts/opsx-*
+/.github/skills/openspec-*/
