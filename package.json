@@ -1,8 +1,27 @@
 {
 	"name": "neveflow",
+	"description": "Enterprise-grade Snowflake migration pipeline using Flyway, with AI-assisted authoring and CI/CD orchestration",
+	"version": "0.1.0",
+	"homepage": "https://github.com/Andrew-Schetinin/NeveFlow#readme",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Andrew-Schetinin/NeveFlow.git"
+	},
+	"author": "Andrew Schetinin <andrew.schetinin@bhgrids.com>",
+	"license": "Apache-2.0",
+	"keywords": [
+		"snowflake",
+		"flyway",
+		"database-migrations",
+		"schema-versioning",
+		"ai-assisted",
+		"claude-code",
+		"openspec",
+		"aws",
+		"github-actions"
+	],
 	"module": "index.ts",
 	"type": "module",
-	"private": true,
 	"devDependencies": {
 		"@biomejs/biome": "=2.5.0",
 		"@fission-ai/openspec": "~1.4.1",

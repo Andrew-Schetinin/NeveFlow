@@ -17,11 +17,8 @@ bunx openspec init
 
 ## Running
 
-TODO: this is a placeholder - this will change
-
-```bash
-bun run index.ts
-```
+See the [README](README.md) — the pipeline is driven by scripts in `scripts/`. 
+Full setup details will be added as the project matures.
 
 ## Testing
 
