@@ -1,0 +1,7 @@
+---
+description: Core project rules
+globs: "**/*"
+alwaysApply: true
+---
+
+@file ../../AGENTS.md
