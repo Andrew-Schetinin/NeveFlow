@@ -1,0 +1,8 @@
+#!/bin/sh
+bunx biome check --write .
+
+if ! git diff --quiet; then
+  echo "❌ Biome reformatted the following files. Review and re-stage them before committing:"
+  git diff --name-only
+  exit 1
+fi
